@@ -77,3 +77,5 @@ const summary = `
       Shift: ${shift}
     `;
 console.log(summary);
+
+alert(summary);
