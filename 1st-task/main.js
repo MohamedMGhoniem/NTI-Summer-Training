@@ -23,10 +23,12 @@ if (age < 13) {
 
 let message = `Hello ${userName}, you are ${age} years old. Category: ${category}.`;
 
+if (isStudent) message = message + ` don't forget to study hard`;
+
 console.log(message);
 
 alert(message);
 
 document.getElementById('name').innerText = userName;
 document.getElementById('age').innerText = age;
-document.getElementById('category').innerText = { category };
+document.getElementById('category').innerText = category;

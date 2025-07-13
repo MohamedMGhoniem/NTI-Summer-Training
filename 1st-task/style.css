@@ -11,8 +11,7 @@ body {
   padding: 40px;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: flex-start;
+  align-items: center;
 }
 
 h1,
