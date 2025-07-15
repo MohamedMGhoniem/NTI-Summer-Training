@@ -6,6 +6,7 @@ let interval;
 btnStart.addEventListener('click', function () {
   clearInterval(interval);
   messageEl.innerHTML = '';
+  countdownEl.style.display = 'block';
   let seconds = Number(prompt('Enter time in seconds:'));
 
   view(seconds);
