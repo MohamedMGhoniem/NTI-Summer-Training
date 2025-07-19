@@ -8,10 +8,36 @@
   </head>
   <body>
     <div class="timer-container">
+      <div class="search-container">
+        <label for="search">Search Events:</label>
+        <input type="text" id="search" placeholder="Enter event name..." />
+      </div>
+
       <h1 class="title">countdown timer</h1>
-      <button id="startBtn">start timer</button>
-      <div id="countdown">--:--</div>
-      <div id="message"></div>
+
+      <div class="form-container">
+        <form id="countdownForm">
+          <label for="eventName">Event Name:</label>
+          <input type="text" id="eventName" placeholder="Enter event name" />
+          <label for="timeRemaining">Time Remaining (seconds):</label>
+          <input
+            type="number"
+            id="timeRemaining"
+            placeholder="Enter time in seconds"
+            min="1"
+          />
+          <div id="error"></div>
+          <button type="submit" id="startBtn">Start Countdown</button>
+        </form>
+
+        <div id="countdown">--:--</div>
+        <div id="message"></div>
+
+        <div class="eventList-container">
+          <h2>event list:</h2>
+          <div id="eventList"></div>
+        </div>
+      </div>
     </div>
     <script src="./main.js"></script>
   </body>
