@@ -1,0 +1,48 @@
+.hero {
+  height: 100vh;
+  background: #1e88e5;
+  background-image: linear-gradient(#1e88e5, #1ec1e5);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  animation: 3s infinite alternate ease-in-out wavey;
+}
+
+h1 {
+  text-shadow: 0px 2px 2px rgba(0, 17, 17, 0.533);
+}
+
+.start {
+  background: #fff;
+  color: #1e88e5;
+  border: 1px solid;
+  transition: background 0.1s ease-in;
+
+  &:hover {
+    background: none;
+    border: 1px solid #fff;
+    color: #fff;
+  }
+}
+
+.scroll {
+  position: absolute;
+  bottom: 30px;
+  right: 30px;
+  animation: 1s infinite alternate ease-in-out jumpy;
+}
+
+@keyframes jumpy {
+  0% {
+    transform: translateY(-30%);
+  }
+  100% {
+    transform: translateY(30%);
+  }
+}
+
+.scroll svg {
+  color: #fff;
+}

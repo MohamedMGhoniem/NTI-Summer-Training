@@ -1,0 +1,49 @@
+.about {
+  height: 100vh;
+  background: #f1f8e9;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.mission-vision {
+  margin-top: 60px;
+  background: linear-gradient(135deg, #6e8efb, #a777e3);
+  color: white;
+  padding: 40px;
+  border-radius: 15px;
+  text-align: left;
+}
+
+.mission-vision h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.mission-vision p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  max-width: 600px;
+}
+
+.about-header p {
+  font-size: 1rem;
+}
+
+.about-card {
+  padding: 20px;
+}
+
+.about-card img {
+  width: 60px;
+  height: 60px;
+}
+
+.mission-vision {
+  padding: 30px;
+}
+
+.mission-vision h2 {
+  font-size: 1.8rem;
+}
